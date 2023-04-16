@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "K/z3UnJsKTyPepiXXvjS+LIxTRbWFlmTkcmziYHC6SloodReiBjtUkRolvwgAS5q3hVusehnnCHBYVytod1A1A==",
+  "dgSpecHash": "hE+G8url4wW4+Dh9aNvRaECT7oGtRv2CN8cLewBmpUUs2VtH7CJYy7dQ61YCL2uIFZUbeTtyyFL+WCQ6qhmmbA==",
   "success": true,
   "projectFilePath": "C:\\Users\\Ilyas\\source\\repos\\ClassLibraryProjects\\StringLibrary\\StringLibrary.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\Ilyas\\.nuget\\packages\\system.memory\\4.5.5\\system.memory.4.5.5.nupkg.sha512"
+  ],
   "logs": []
 }
