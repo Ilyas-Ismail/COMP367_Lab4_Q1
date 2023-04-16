@@ -2,8 +2,17 @@
   "version": 3,
   "targets": {
     "net6.0": {
-      "NuGet.CommandLine/6.5.0": {
-        "type": "package"
+      "StringLibrary/1.0.0-CI-20230416-161807": {
+        "type": "package",
+        "dependencies": {
+          "System.Memory": "4.5.5"
+        },
+        "compile": {
+          "lib/net6.0/StringLibrary.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0/StringLibrary.dll": {}
+        }
       },
       "System.Memory/4.5.5": {
         "type": "package",
@@ -17,20 +26,15 @@
     }
   },
   "libraries": {
-    "NuGet.CommandLine/6.5.0": {
-      "sha512": "RGwYvcxHg3iM+Liy9GqpzShDGXAPfkOrKAUpezCu8zVAmcK3qhtcMhdQxayE/VYsJQGelwq+iwA+t8fzdbJZ2g==",
+    "StringLibrary/1.0.0-CI-20230416-161807": {
+      "sha512": "DNcH3MNo3uFYFM84frrd1Z2j8AR6aKBeXXiPf/3RUs+cikczHQhBG3Ohw8u4rWuzFkd0LI2+iIB9Aws2NOhoVQ==",
       "type": "package",
-      "path": "nuget.commandline/6.5.0",
-      "hasTools": true,
+      "path": "stringlibrary/1.0.0-ci-20230416-161807",
       "files": [
         ".nupkg.metadata",
-        ".signature.p7s",
-        "README.md",
-        "icon.png",
-        "nuget.commandline.6.5.0.nupkg.sha512",
-        "nuget.commandline.nuspec",
-        "tools/NuGet.exe",
-        "tools/NuGet.pdb"
+        "lib/net6.0/StringLibrary.dll",
+        "stringlibrary.1.0.0-ci-20230416-161807.nupkg.sha512",
+        "stringlibrary.nuspec"
       ]
     },
     "System.Memory/4.5.5": {
@@ -59,8 +63,7 @@
   },
   "projectFileDependencyGroups": {
     "net6.0": [
-      "NuGet.CommandLine >= 6.5.0",
-      "System.Memory >= 4.5.5"
+      "StringLibrary >= 1.0.0-CI-20230416-161807"
     ]
   },
   "packageFolders": {
@@ -70,11 +73,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Ilyas\\source\\repos\\ClassLibraryProjects\\StringLibrary\\StringLibrary2.csproj",
-      "projectName": "StringLibrary2",
-      "projectPath": "C:\\Users\\Ilyas\\source\\repos\\ClassLibraryProjects\\StringLibrary\\StringLibrary2.csproj",
+      "projectUniqueName": "C:\\Users\\Ilyas\\source\\repos\\ClassLibraryProjects\\ShowCase\\ShowCase.csproj",
+      "projectName": "ShowCase",
+      "projectPath": "C:\\Users\\Ilyas\\source\\repos\\ClassLibraryProjects\\ShowCase\\ShowCase.csproj",
       "packagesPath": "C:\\Users\\Ilyas\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Ilyas\\source\\repos\\ClassLibraryProjects\\StringLibrary\\obj\\",
+      "outputPath": "C:\\Users\\Ilyas\\source\\repos\\ClassLibraryProjects\\ShowCase\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -108,15 +111,9 @@
       "net6.0": {
         "targetAlias": "net6.0",
         "dependencies": {
-          "NuGet.CommandLine": {
-            "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
-            "suppressParent": "All",
+          "StringLibrary": {
             "target": "Package",
-            "version": "[6.5.0, )"
-          },
-          "System.Memory": {
-            "target": "Package",
-            "version": "[4.5.5, )"
+            "version": "[1.0.0-CI-20230416-161807, )"
           }
         },
         "imports": [

@@ -1,0 +1,52 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "ShowCase/1.0.0": {
+        "dependencies": {
+          "StringLibrary": "1.0.0-CI-20230416-161807"
+        },
+        "runtime": {
+          "ShowCase.dll": {}
+        }
+      },
+      "StringLibrary/1.0.0-CI-20230416-161807": {
+        "dependencies": {
+          "System.Memory": "4.5.5"
+        },
+        "runtime": {
+          "lib/net6.0/StringLibrary.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "System.Memory/4.5.5": {}
+    }
+  },
+  "libraries": {
+    "ShowCase/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "StringLibrary/1.0.0-CI-20230416-161807": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-DNcH3MNo3uFYFM84frrd1Z2j8AR6aKBeXXiPf/3RUs+cikczHQhBG3Ohw8u4rWuzFkd0LI2+iIB9Aws2NOhoVQ==",
+      "path": "stringlibrary/1.0.0-ci-20230416-161807",
+      "hashPath": "stringlibrary.1.0.0-ci-20230416-161807.nupkg.sha512"
+    },
+    "System.Memory/4.5.5": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-XIWiDvKPXaTveaB7HVganDlOCRoj03l+jrwNvcge/t8vhGYKvqV+dMv6G4SAX2NoNmN0wZfVPTAlFwZcZvVOUw==",
+      "path": "system.memory/4.5.5",
+      "hashPath": "system.memory.4.5.5.nupkg.sha512"
+    }
+  }
+}

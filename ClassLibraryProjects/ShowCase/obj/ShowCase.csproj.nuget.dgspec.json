@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Ilyas\\source\\repos\\ClassLibraryProjects\\StringLibrary\\StringLibrary.csproj": {}
+    "C:\\Users\\Ilyas\\source\\repos\\ClassLibraryProjects\\ShowCase\\ShowCase.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Ilyas\\source\\repos\\ClassLibraryProjects\\StringLibrary\\StringLibrary.csproj": {
+    "C:\\Users\\Ilyas\\source\\repos\\ClassLibraryProjects\\ShowCase\\ShowCase.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Ilyas\\source\\repos\\ClassLibraryProjects\\StringLibrary\\StringLibrary.csproj",
-        "projectName": "StringLibrary",
-        "projectPath": "C:\\Users\\Ilyas\\source\\repos\\ClassLibraryProjects\\StringLibrary\\StringLibrary.csproj",
+        "projectUniqueName": "C:\\Users\\Ilyas\\source\\repos\\ClassLibraryProjects\\ShowCase\\ShowCase.csproj",
+        "projectName": "ShowCase",
+        "projectPath": "C:\\Users\\Ilyas\\source\\repos\\ClassLibraryProjects\\ShowCase\\ShowCase.csproj",
         "packagesPath": "C:\\Users\\Ilyas\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Ilyas\\source\\repos\\ClassLibraryProjects\\StringLibrary\\obj\\",
+        "outputPath": "C:\\Users\\Ilyas\\source\\repos\\ClassLibraryProjects\\ShowCase\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -45,15 +45,9 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
-            "NuGet.CommandLine": {
-              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
-              "suppressParent": "All",
+            "StringLibrary": {
               "target": "Package",
-              "version": "[6.5.0, )"
-            },
-            "System.Memory": {
-              "target": "Package",
-              "version": "[4.5.5, )"
+              "version": "[1.0.0-CI-20230416-161807, )"
             }
           },
           "imports": [
